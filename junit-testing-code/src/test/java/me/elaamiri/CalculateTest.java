@@ -8,7 +8,7 @@ public class CalculateTest {
 	Calculate calculate = new Calculate();
 	
 	int sum = calculate.sum(5, 10);
-	int testSum = 15;
+	int testSum = 105;
 	
 	@Test
 	public void testSum2Integers() {
