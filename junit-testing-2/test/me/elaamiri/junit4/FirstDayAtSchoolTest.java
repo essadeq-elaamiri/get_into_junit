@@ -2,8 +2,10 @@ package me.elaamiri.junit4;
 
 import static org.junit.Assert.*;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
+@Ignore
 public class FirstDayAtSchoolTest {
 	
 	FirstDayAtSchool firstDayAtSchool = new FirstDayAtSchool();
