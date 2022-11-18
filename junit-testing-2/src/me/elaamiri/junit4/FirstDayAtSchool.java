@@ -11,7 +11,7 @@ public class FirstDayAtSchool {
 		return schoolBag;
 	}
 	
-	public String[] addPancils() {
+	public String[] addPencils() {
 		String[] schoolbag = { "Books", "Notebooks", "Pens", "Pencils" };
 		System.out.println("Now my school bag contains: "
 		+ Arrays.toString(schoolbag));

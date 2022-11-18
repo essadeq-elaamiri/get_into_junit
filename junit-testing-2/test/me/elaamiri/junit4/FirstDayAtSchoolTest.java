@@ -24,7 +24,7 @@ public class FirstDayAtSchoolTest {
 	public void testAddPencils() {
 		System.out.println("Inside testAddPencils()");
 		assertArrayEquals(bag2, 
-				firstDayAtSchool.addPancils());
+				firstDayAtSchool.addPencils());
 	}
 
 }
