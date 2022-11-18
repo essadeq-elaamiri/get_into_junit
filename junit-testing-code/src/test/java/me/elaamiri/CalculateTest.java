@@ -4,8 +4,11 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Ignore;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
-@Ignore
+import me.elaamiri.categories.SumWith2Params;
+
+@Category(SumWith2Params.class)
 public class CalculateTest {
 	Calculate calculate = new Calculate();
 	
@@ -14,6 +17,7 @@ public class CalculateTest {
 	
 	@Test
 	public void testSum2Integers() {
+		System.out.println("CalculateTest");
 		System.out.println("@Test sum(): " + sum + " = " + testSum);
 		assertEquals(sum, testSum);
 	}
