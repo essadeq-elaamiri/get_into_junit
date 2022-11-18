@@ -7,6 +7,8 @@ import java.util.ArrayList;
 
 import org.junit.*;
 
+
+@Ignore
 public class AnnotationsTesting {
 	private ArrayList<Integer> testList;
 	

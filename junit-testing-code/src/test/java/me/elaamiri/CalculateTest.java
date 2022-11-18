@@ -2,8 +2,10 @@ package me.elaamiri;
 
 import static org.junit.Assert.assertEquals;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
+@Ignore
 public class CalculateTest {
 	Calculate calculate = new Calculate();
 	
